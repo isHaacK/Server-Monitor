@@ -4,6 +4,8 @@ Useful for sysadmins that want to know when a Host goes offline.
 ## Usage
 - Configure the emails in monitor.py
 - Set a scheduled task on the desired hosts every 5 minutes to run the ps1 file.
+  - client.ps1 report status of the host that is executing it.
+  - ping_multi_client.ps1 pings any ip (like printers) and report its stauts.
 - Update the ACL with any new host names.
 ## Features
 - Send email everytime a host is down.
