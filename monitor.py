@@ -19,11 +19,11 @@ from collections import OrderedDict
 import unicodedata
 
 intervals = (
-	('semanas', 604800),  # 60 * 60 * 24 * 7
-	('dias', 86400),    # 60 * 60 * 24
-	('horas', 3600),    # 60 * 60
-	('minutos', 60),
-	('segundos', 1),
+	('weeks', 604800),  # 60 * 60 * 24 * 7
+	('days', 86400),    # 60 * 60 * 24
+	('hours', 3600),    # 60 * 60
+	('minutes', 60),
+	('seconds', 1),
 )
 
 # Turns seconds into human readable (4 hours 13 minutes 12 seconds...)
