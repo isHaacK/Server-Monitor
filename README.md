@@ -15,6 +15,6 @@ Useful for sysadmins that want to know when a Host goes offline.
   - Online: Shows last online ping.
   - Offline: Hosts in ACL that have not recieved a connection since Server Monitor started.
 ## Web interface 
-![image](https://user-images.githubusercontent.com/43073766/143605084-801a4213-141e-4b9f-91b8-6e62090a44b3.png)
+![image](https://user-images.githubusercontent.com/43073766/143618169-94a9afea-b247-4e0d-b510-caf66f1a7a52.png)
 ## To do
 add client for linux
