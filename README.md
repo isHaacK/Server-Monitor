@@ -11,3 +11,5 @@ Useful for sysadmins that want to know when a Host goes offline.
 - Web interface shows Online and Down hosts. if host is down, shows the current downtime.
 ## Web interface 
 ![image](https://user-images.githubusercontent.com/43073766/143605084-801a4213-141e-4b9f-91b8-6e62090a44b3.png)
+## To do
+add client for linux
