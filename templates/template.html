@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Server Monitor</title>
+  </head>
+  <body>
+    <style type="text/css">
+    body {
+    font-family: 'Courier New', monospace;
+}
+    .center {
+    margin: auto;
+    width: 60%;
+    //border: 5px solid #FFFF00;
+    padding: 0px;
+    text-align:center;
+    }
+    .left {
+      text-align:left;
+    }
+    </style>
+    <h1>
+    <div class="center">
+      <p>Server Monitor</p>
+    </div>
+    </h1>
+      <h2><div>Hosts Down</div></h2>
+
+        {% for host in downtime %}
+     <div class="left"><li>{{downtime[host][0] + " " + host + " " + downtime[host][1]}}</li></div>
+        {% endfor %}
+
+
+      <h2><div>Hosts Up</div></h2>
+
+        {% for host in uptime %}
+        <div class="left"><li>{{uptime[host] + " " + host}}</li></div>
+        {% endfor %}
+
+
+      <h2><div>Hosts Offline</div></h2>
+
+        {% for host in offline %}
+        <div class="left"><li>{{host}}</li></div>
+        {% endfor %}
+
+    </div>
+  </body>
+</html>
