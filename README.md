@@ -9,7 +9,7 @@ Useful for sysadmins that want to know when a Host goes offline.
 - Send email everytime a host is down.
 - Send email when a host that went down is up again. shows downtime
 - Web interface.
-  - Down: Shows last pint and the current downtime of a host.
+  - Down: Shows last ping and the current downtime of a host.
   - Online: Shows last online ping.
   - Offline: Hosts in ACL that have not recieved a connection since Server Monitor started.
 ## Web interface 
