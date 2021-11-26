@@ -3,7 +3,7 @@ Server with web interface to monitor the status of hosts in real time. Send emai
 Useful for sysadmins that want to know when a Host goes offline.
 ## Usage
 - Configure the emails in monitor.py
-- Set a scheduled task every 5 minutes that runs the ps1 file.
+- Set a scheduled task on the desired hosts every 5 minutes to run the ps1 file.
 - Update the ACL with any new host names.
 ## Features
 - Send email everytime a host is down.
